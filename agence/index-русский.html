@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orbi Sea Towers</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css"
+            media="all"
+            rel="stylesheet">
+        <link
+            href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css"
+            media="all"
+            rel="stylesheet">
+        <link
+            href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
+            media="all"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <!-- header -->
+            <header class="flex">
+                <div class="logo">
+                    <img src="./guga-iamge.png" alt="Orbi Sea Towers">
+                </div>
+
+                <!-- navigation -->
+                <nav class="flex">
+                    <ul class="flex">
+                        <li>
+                            <a href="#hotelsAnchor">жилье</a>
+                        </li>
+                        <li>
+                            <a href="#activitiesanchor">виды деятельности</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Язык </a>
+                            
+                            <div class="dropdown-content">
+                              <a href="#">ქართული</a>
+                              <a href="index.html">English</a>
+                              <a href="#">عربى</a>
+                            </div>
+                          </li>
+                    </ul>
+                </nav>
+                <a href="" class="signUp">войти</a>
+
+            </header>
+
+            <div class="search">
+                <h2> поищи здесь</h2>
+                <p>в любом месте</p>
+                <form class="searchBar flex" action="#" method="Get">
+                    <div class="containerMarker flex">
+                        <i class="fas fa-map-marker-alt"></i>
+                         <input type="search" class="searchInput" placeholder="поищи здесь">
+                    <button class="searchButton">
+                        <span>исследовать</span>
+                        <i class="fas fa=search"></i>
+                    </button>
+                    </div>
+                   
+                </form>
+
+                <!-- filters -->
+
+                <div class="filter flex">
+                    <div class="iconFilter flex">
+                        <i class="fas fa-money-bill-wave"></i>
+                        
+                    </div>
+                    <span>Экономический</span>
+                </div>
+                <div class="filter flex">
+                    <div class="iconFilter flex">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <span>знакомые</span>
+                </div>
+
+                <div class="filter flex">
+                    <div class="iconFilter flex">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span>романтик</span>
+                </div>
+
+                <div class="filter flex">
+                    <div class="iconFilter flex">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <span>животное жареное</span>
+                </div>
+
+            </div>
+
+            <div>
+
+                <div class="containerInfo flex">
+                    <div class="iconInfo flex">
+                        <i class="fas fa-info"></i>
+                    </div>
+                    <span>более 500 квартир</span>
+
+                </div>
+
+            </div>
+            <div class="containerHotels flex">
+                <!-- Hotels -->
+                <section class="hotels">
+                    <h2 id="hotelsAnchor">отели рядом</h2>
+                    <div class="hotelsTab">
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 1</h3>
+                                    <p>ночь с
+                                        <span class="euros">25€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 2</h3>
+                                    <p>ночь с
+                                        <span class="euros">45€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 3</h3>
+                                    <p>ночь с
+                                        <span class="euros">75€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 4</h3>
+                                    <p>ночь с
+                                        <span class="euros">65€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 5</h3>
+                                    <p>ночь с
+                                        <span class="euros">55€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="hotelFrame">
+                                <img src="./guga-iamge.png" alt="photo d'une chambre">
+                                <div class="hotelDescription flex">
+                                    <h3 class="hotelName">hotel 6</h3>
+                                    <p>ночь с
+                                        <span class="euros">45€</span></p>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                        <i class="fas fa-star greyStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <a class="showMore" href="show more"></a>
+                </section>
+
+                <!-- popular -->
+
+                <section class="popular">
+                    <div class="popularIcon flex">
+                        <h2>Самые популярные</h2>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="popularTab">
+
+                        <a href="#">
+                            <article class="popularFrame flex">
+                                <img src="./guga-iamge.png" alt="">
+                                <div class="popularDescriptionlex">
+                                    <div>
+                                        <h3 class="hotelName">Hotel name 1</h3>
+                                        <p>ночь с 100
+                                            <span class="euros">€</span></p>
+                                    </div>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="popularFrame flex">
+                                <img src="./guga-iamge.png" alt="">
+                                <div class="popularDescriptionlex">
+                                    <div>
+                                        <h3 class="hotelName">Hotel name 2</h3>
+                                        <p>ночь с 100
+                                            <span class="euros">€</span></p>
+                                    </div>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                        <a href="#">
+                            <article class="popularFrame flex">
+                                <img src="./guga-iamge.png" alt="">
+                                <div class="popularDescriptionlex">
+                                    <div>
+                                        <h3 class="hotelName">Hotel name 3</h3>
+                                        <p>ночь с 100
+                                            <span class="euros">€</span></p>
+                                    </div>
+                                    <div class="hotelRate">
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                        <i class="fas fa-star blueStar"></i>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- activites -->
+
+            <section class="activities">
+                <h2 id="activitiesAnchor">виды деятельности</h2>
+                <div class="activitiesTab">
+
+                    <a href="#" class="row12">
+                        <div class="activityFrame">
+                            <img
+                                src="./guga-iamge.png"
+                                alt="Photo d'un port de plaisance rempli de bateaux">
+                            <div class="activityDescription">
+                                Vieux Port
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row6">
+                        <div class="activityFrame">
+                            <img
+                                src="./guga-iamge.png"
+                                alt="Photo d'un fort entouré de roche grès">
+                            <div class="activityDescription">
+                                Fort de Pomègues
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row5">
+                        <div class="activityFrame">
+                            <img src="./guga-iamge.png" alt="photo">
+                            <div class="activityDescription">
+                                blabla
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row12">
+                        <div class="activityFrame">
+                            <img src="./guga-iamge.png" alt="photo">
+                            <div class="activityDescription">
+                                blabla
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row5">
+                        <div class="activityFrame">
+                            <img src="./guga-iamge.png" alt="photo">
+                            <div class="activityDescription">
+                                blabla
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="row6">
+                        <div class="activityFrame">
+                            <img src="./guga-iamge.png" alt="photo">
+                            <div class="activityDescription">
+                                blabla
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- footer -->
+
+        <footer class="flex">
+            <div class="about">
+                <h3> об этом</h3>
+                <ul>
+                    <li>
+                        <a href="#">A</a>
+                    </li>
+                    <li>
+                        <a href="#">B</a>
+                    </li>
+                    <li>
+                        <a href="#">C</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="ourHotels">
+                <h3>Наши номера</h3>
+                <ul>
+                    <li>
+                        <a href="#">Charte qualité</a>
+                    </li>
+                    <li>
+                        <a href="#">Soumettre votre hôtel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="assistance">
+                <h3>Assistance</h3>
+                <ul>
+                    <li>
+                        <a href="#">Centre d'aide</a>
+                    </li>
+                    <li>
+                        <a href="#">Nous contacter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+</html>
